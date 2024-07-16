@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="GenericUtilities.Ecom_Listener_Implementation"/>
+</listeners>
+  <test thread-count="4" name="Test">
+    <classes>
+      <class name="TC_APPAREL_SHOES_04.Apparel_Page_Test"/>
+      <class name="TC_BOOK_DEMO_01.Book_Page_Test"/>
+      <class name="TC_COMPUTER_02.Computer_Page_Test"/>
+      <class name="TC_ELECTRONIC_03.Electronic_Page_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
